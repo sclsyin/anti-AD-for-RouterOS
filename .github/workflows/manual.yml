@@ -16,7 +16,7 @@ jobs:
       - name: Checkout upstream repository
         uses: actions/checkout@v4
         with:
-          repository: privacy-protection-tools/anti-AD
+          repository: sclsyin/anti-AD-for-RouterOS
           ref: master  # 或者指定其他分支
           path: code  # 指定克隆到的工作目录路径
 
